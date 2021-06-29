@@ -11,9 +11,11 @@ public class Main {
         String NIC = read.nextLine();
         String selectedYear = NIC.substring(0,2);
         String selectedDayMonth = NIC.substring(2,5);
+        String lastValue = NIC.substring(9,10);
 
         System.out.println("Year :"+selectedYear);
         System.out.println("Month & Day :"+selectedDayMonth);
+        System.out.println("Voting status: "+lastValue);
 
     }
 }
